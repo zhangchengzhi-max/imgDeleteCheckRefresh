@@ -28,3 +28,38 @@ Refresh.py
 其他注意事项：
 
 http://doc.ws.netease.com/pages/viewpage.action?pageId=334659961
+
+
+先检查，再删除，再检查，再刷新存在的，然后再处理后续的
+替换----- A域名替换为B域名，删除含B的url，刷新含A的url，，，，如果遇到删不掉的，则再试试删除AUrl
+
+1.cimg的--------------- cimg.163.com 替换成 img163.nos2-i.service.163.org/cimg
+
+                                 cimgx.163.com 替换成 img1.cache.netease.com
+
+                                
+
+2.vimg 的------------- vimgx.163.com 替换成 img163.nos.netease.com/vimg
+
+
+
+不能删除的：
+nos.netease.com/hot-pic
+nie.res.netease.com
+img.bimg.126.net-
+nie.res.netease.com
+muimages.nos-eastchina1.126.net
+res.nie.netease.com
+hot-pic.nosdn.127.net
+flv15.bn.netease.com
+
+其他：
+http://img1.cache.netease.com/catchpic/5/58/58D10C8FEF97174A4CBD143D6BCF2467.jpg-----------后边加个/删除，然后刷新使用原来的url
+
+http://cms-bucket.nosdn.127.net/catchpic/c/cb/cb56960c8a619eb3edb77a4ef0b92cd8.bmp?imageView&thumbnail=550x0   -------------   删除时去掉问号，刷新时带着问好并且encode.      (下次再试试，之前删除时直接encode不去掉问号好像也能删除)
+
+
+
+
+
+
